@@ -1,11 +1,13 @@
-<div align="center">
 
-# 🛡️ GigShield 
+
+# 🛡️ GigShield
+
 ### *An Adaptive Insurance for the Gig Economy*
 
 ---
 
-### 🚀 Guidewire DEVTrails 2026  
+### 🚀 Guidewire DEVTrails 2026
+
 **Problem Statement:** AI-Powered Insurance for India’s Gig Economy  
 
 </div>
@@ -14,7 +16,8 @@
 
 ## 👥 Team Details
 
-### 🧑‍💻 Team Name  
+### 🧑‍💻 Team Name
+
 **God Mode**
 
 ### 👨‍👩‍👧‍👦 Team Members
@@ -30,12 +33,6 @@
 ---
 
 ### 1.1 🚨 Problem Statement
-
-<div align="center">
-  <img src="https://github.com/user-attachments/assets/da24a0f8-dbdc-429d-92aa-eaf368974bcf" width="25%" />
-  <img src="https://github.com/user-attachments/assets/697ebfd8-93fc-4e62-b3a1-96f4b5a787c7" width="30%" />
-  <img src="https://github.com/user-attachments/assets/e90374ad-9fb3-40fc-99a8-ed7502efa5ec" width="30%" />
-</div>
 
 The rapid growth of the gig economy has enabled millions of delivery partners to earn through platforms like:
 
@@ -74,11 +71,11 @@ Delivery partners operate in uncontrolled outdoor environments, making them high
 
 Each delivery ecosystem has a **single point of failure**:
 
-| Category | Dependency        | Failure Impact              |
-|----------|-----------------|----------------------------|
-| 🍔 Food Delivery | Restaurants       | Instant order collapse     |
-| 🛒 Quick Commerce | Dark Stores       | No order assignment        |
-| 📦 E-commerce     | Sortation Hubs    | Full slot income loss      |
+| Category          | Dependency     | Failure Impact         |
+| ----------------- | -------------- | ---------------------- |
+| 🍔 Food Delivery  | Restaurants    | Instant order collapse |
+| 🛒 Quick Commerce | Dark Stores    | No order assignment    |
+| 📦 E-commerce     | Sortation Hubs | Full slot income loss  |
 
 ---
 
@@ -90,10 +87,10 @@ Each delivery ecosystem has a **single point of failure**:
 
 📊 **Example:**
 
-| Scenario        | Earnings      |
-|---------------|--------------|
-| Normal Peak   | ₹300–₹400     |
-| Disruption    | ₹0            |
+| Scenario    | Earnings  |
+| ----------- | --------- |
+| Normal Peak | ₹300–₹400 |
+| Disruption  | ₹0        |
 
 ---
 
@@ -113,6 +110,7 @@ Existing insurance solutions:
 **Worker Profile:** Two-wheeler rider, 3–7 km delivery radius, 4–6 orders/hour peak, ₹25–35/order.
 
 **Income Structure:**
+
 - Lunch Peak (12–3 PM): ~₹240 (33% of daily income)
 - Dinner Peak (6–11 PM): ~₹360 (50% of daily income)
 - Off-peak (3–6 PM): ~₹120
@@ -167,6 +165,7 @@ Existing insurance solutions:
 **Critical Unique Risk:** If the dark store (micro-warehouse) is closed or order assignment rate drops >20%, the rider has zero alternative source of pickups — unlike food riders who can wait at multiple restaurants.
 
 **Trigger Conditions:**
+
 - Rain >10 mm/hr, OR
 - Flood depth >30 cm, OR
 - AQI >300, OR
@@ -211,6 +210,7 @@ Existing insurance solutions:
 **Critical Unique Risk:** Slot-based income cliff — entire batch of 20 packages assigned at hub. If the hub is inaccessible or heat forces route abandonment at package #10, income is lost proportionally. One hub outage affects 200–500 riders simultaneously.
 
 **Trigger Conditions:**
+
 - Hub inaccessibility (flood, curfew, shutdown)
 - Temperature >38°C during slot (sustained outdoor exposure stricter than other personas)
 - Rain >10 mm/hr mid-route
@@ -241,7 +241,7 @@ Existing insurance solutions:
 
 **Example — Arjun, Amazon Flex, Whitefield:**
 📉 Heat hits 42°C mid-morning, forces route abandonment after 10 of 20 packages delivered → (10/20) × ₹600 = **₹300 auto-paid**
- 
+
 ---
 
 🔥 **Key Insight**
@@ -259,28 +259,33 @@ The goal is to build a **unified, scalable insurance system** that protects deli
 #### 🎯 Core Objectives
 
 1. **Universal Coverage**
+   
    - Food Delivery  
    - Quick Commerce  
    - E-commerce  
 
 2. **Zero-Touch Claim System**
+   
    - No manual claims  
    - No paperwork  
    - Fully automated payouts  
 
 3. **Real-Time Risk Detection**
+   
    - Weather APIs  
    - AQI systems  
    - Traffic data  
    - Platform delivery logs  
 
 4. **Fair & Adaptive Premiums**
+   
    - Location risk  
    - Behavior  
    - Historical patterns  
    - Forecasted disruptions  
 
 5. **Scalable Unified Framework**
+   
    - ✅ One platform → Multiple delivery modules  
 
 ---
@@ -315,7 +320,6 @@ Loss Calculation (Category-specific)
 UPI Transfer (within minutes)
 ```
 
-
 ---
 
 ### 1.5 🧠 Technical Foundation (Parametric Model)
@@ -324,11 +328,9 @@ The system follows a **parametric insurance approach**, where payouts depend on 
 
 #### 🔑 Core Trigger Logic
 
-
 If (Environmental Risk ≥ High) OR (Operational Risk ≥ High)
 AND Rider Active
 → Payout Triggered
-
 
 #### 📥 Key Inputs
 
@@ -343,29 +345,32 @@ AND Rider Active
 
 ### 1.6 🚀 Why Parametric Insurance?
 
-| Feature            | Traditional Insurance | GigShield |
-|-------------------|---------------------|----------|
-| Claim Process     | Manual              | Automatic |
-| Processing Time   | Days                | Minutes  |
-| Transparency      | Low                 | High     |
-| Fraud Risk        | High                | Low      |
-| Scalability       | Limited             | High     |
+| Feature         | Traditional Insurance | GigShield |
+| --------------- | --------------------- | --------- |
+| Claim Process   | Manual                | Automatic |
+| Processing Time | Days                  | Minutes   |
+| Transparency    | Low                   | High      |
+| Fraud Risk      | High                  | Low       |
+| Scalability     | Limited               | High      |
 
 ---
 
 ### 1.7 🌍 Impact & Value Proposition
 
 #### 👤 For Delivery Partners
+
 - Income stability  
 - Financial protection  
 - Reduced uncertainty  
 
 #### 🏢 For Platforms
+
 - Better rider retention  
 - Improved reliability  
 - Operational stability  
 
 #### 🌐 For Ecosystem
+
 - First real-time gig worker insurance system  
 - Scalable across cities and countries  
 
@@ -377,9 +382,7 @@ AND Rider Active
 
 ### 2.1 👥 Unified Delivery Ecosystem Overview
 
-<div align="center">
-  <img src="https://github.com/user-attachments/assets/7b70c990-9f2a-4b9a-b936-676ad410e933" width="50%" />
-</div>
+
 
 GigShield is designed to support three distinct but overlapping delivery ecosystems:
 
@@ -398,16 +401,16 @@ Although all involve last-mile delivery, their **operational behavior, risk patt
 
 ### 2.2 📊 Persona Comparison (Unified View)
 
-| Attribute            | 🍔 Food Delivery     | 🛒 Quick Commerce     | 📦 E-commerce        |
-|---------------------|--------------------|----------------------|---------------------|
-| Platforms           | Zomato, Swiggy     | Zepto, Blinkit       | Amazon, Flipkart    |
-| Delivery Type       | Meals              | Groceries            | Packages            |
-| Radius              | 8–35 km            | 2–5 km               | 15–40 km            |
-| Time per Delivery   | 20–40 min          | 5–10 min            | Slot-based (4 hrs)  |
-| Income Model        | Per order          | Per order            | Per package / slot  |
-| Peak Dependency     | Very High (70–80%) | Moderate             | Fixed slots         |
-| Critical Dependency | Restaurants        | Dark Stores          | Hubs                |
-| Failure Impact      | Instant            | Gradual → Full       | Bulk loss           |
+| Attribute           | 🍔 Food Delivery   | 🛒 Quick Commerce | 📦 E-commerce      |
+| ------------------- | ------------------ | ----------------- | ------------------ |
+| Platforms           | Zomato, Swiggy     | Zepto, Blinkit    | Amazon, Flipkart   |
+| Delivery Type       | Meals              | Groceries         | Packages           |
+| Radius              | 8–35 km            | 2–5 km            | 15–40 km           |
+| Time per Delivery   | 20–40 min          | 5–10 min          | Slot-based (4 hrs) |
+| Income Model        | Per order          | Per order         | Per package / slot |
+| Peak Dependency     | Very High (70–80%) | Moderate          | Fixed slots        |
+| Critical Dependency | Restaurants        | Dark Stores       | Hubs               |
+| Failure Impact      | Instant            | Gradual → Full    | Bulk loss          |
 
 ---
 
@@ -444,10 +447,7 @@ Heavy Rain at 6:30 PM
 
 ### 2.4 🛒 Quick Commerce Workflow (Zepto / Blinkit)
 
-<div align="center">
-  <img src="https://github.com/user-attachments/assets/e63ab625-1b1b-42a2-8957-3d2441a0a5a5" width="40%" />
-  <img src="https://github.com/user-attachments/assets/44ac1bc8-6526-4ee1-9f7d-4632cf1d130a" width="45%" />
-</div>
+
 
 #### 🔄 Workflow
 
@@ -539,17 +539,19 @@ Category-Specific Calculation
           ↓
         UPI Transfer
 ```
+
 ---
 
 ### 2.7 ⚖️ Failure Point Comparison
 
-| Category     | Failure Trigger    | Speed of Impact     | Recovery            |
-|--------------|------------------|---------------------|---------------------|
-| Food         | Peak disruption   | ⚡ Instant           | Slow                |
-| Quick        | Store failure     | ⏳ Gradual → Full    | Medium              |
-| E-commerce   | Slot failure      | 💥 Bulk             | None (slot lost)    |
+| Category   | Failure Trigger | Speed of Impact  | Recovery         |
+| ---------- | --------------- | ---------------- | ---------------- |
+| Food       | Peak disruption | ⚡ Instant        | Slow             |
+| Quick      | Store failure   | ⏳ Gradual → Full | Medium           |
+| E-commerce | Slot failure    | 💥 Bulk          | None (slot lost) |
 
 ---
+
 ## 3. Risk Factors Across Delivery Categories
 
 ---
@@ -583,18 +585,14 @@ All environmental risks are derived using:
 
 #### 3.2.1 🌧 Rainfall Risk Classification
 
-<div align="center">
-  <img src="https://github.com/user-attachments/assets/997d8982-dbed-467d-bda2-3f19e03598eb" width="30%" />
-</div>
-
 📊 **Standard (IMD / WMO)**
 
-| Rain Type | Rainfall (mm/hr) | Risk Label | Impact            |
-|----------|------------------|-----------|-------------------|
-| Light    | < 2.           | Low       | Normal            |
-| Moderate | 2.– 10         | Medium    | Slow deliveries   |
-| Heavy    | 10 – 50          | High      | Order collapse    |
-| Extreme  | > 50             | High      | Full shutdown     |
+| Rain Type | Rainfall (mm/hr) | Risk Label | Impact          |
+| --------- | ---------------- | ---------- | --------------- |
+| Light     | < 2.             | Low        | Normal          |
+| Moderate  | 2.– 10           | Medium     | Slow deliveries |
+| Heavy     | 10 – 50          | High       | Order collapse  |
+| Extreme   | > 50             | High       | Full shutdown   |
 
 ⚠️ **Category Impact**
 
@@ -606,15 +604,13 @@ All environmental risks are derived using:
 
 #### 3.2.2 🌊 Flooding / Waterlogging
 
-<div align="center">
-  <img src="https://github.com/user-attachments/assets/55974720-77c6-4640-869f-1be51dc831d1" width="30%" />
-</div>
 
-| Flood Depth | Risk   | Impact            |
-|------------|--------|-------------------|
-| < 10 cm    | Low    | Minor delay       |
-| 10 – 30 cm | Medium | Route deviation   |
-| > 30 cm    | High   | No movement       |
+
+| Flood Depth | Risk   | Impact          |
+| ----------- | ------ | --------------- |
+| < 10 cm     | Low    | Minor delay     |
+| 10 – 30 cm  | Medium | Route deviation |
+| > 30 cm     | High   | No movement     |
 
 ⚠️ **Category Impact**
 
@@ -626,22 +622,18 @@ All environmental risks are derived using:
 
 #### 3.2.3 🌡 Temperature Risk (OSHA-Based)
 
-<div align="center">
-  <img src="https://github.com/user-attachments/assets/a68393cb-42ed-4cd3-98d6-3b983c9210ec" width="40%" />
-</div>
-
-| Risk   | Temperature | Impact        |
-|--------|-------------|--------------|
-| Low    | 10–28°C     | Normal       |
-| Medium | 28–35°C     | Fatigue      |
-| High   | ≥ 35°C      | Unsafe       |
+| Risk   | Temperature | Impact  |
+| ------ | ----------- | ------- |
+| Low    | 10–28°C     | Normal  |
+| Medium | 28–35°C     | Fatigue |
+| High   | ≥ 35°C      | Unsafe  |
 
 🔥 **E-commerce Special Case**
 
 | Risk    | Temperature |
-|---------|------------|
-| High    | ≥ 38°C     |
-| Extreme | > 42°C     |
+| ------- | ----------- |
+| High    | ≥ 38°C      |
+| Extreme | > 42°C      |
 
 ⚠️ **Impact**
 
@@ -653,15 +645,13 @@ All environmental risks are derived using:
 
 #### 3.2.4 🌫 Air Quality Index (CPCB)
 
-<div align="center">
-  <img src="https://github.com/user-attachments/assets/90c22666-441d-4bd7-98d6-b8476bf9f375" width="80%" />
-</div>
 
-| AQI  | Category        | Risk   | Impact        |
-|------|----------------|--------|--------------|
-| ≤150 | Good–Moderate  | Low    | Normal       |
-| 151–300 | Poor        | Medium | Slower       |
-| >300 | Severe         | High   | Shutdown     |
+
+| AQI     | Category      | Risk   | Impact   |
+| ------- | ------------- | ------ | -------- |
+| ≤150    | Good–Moderate | Low    | Normal   |
+| 151–300 | Poor          | Medium | Slower   |
+| >300    | Severe        | High   | Shutdown |
 
 ⚠️ **Impact**
 
@@ -679,16 +669,16 @@ All environmental risks are derived using:
 
 **Peak Hour Order Collapse**
 
-| Orders/hr          | Risk   | Impact          |
-|--------------------|--------|-----------------|
-| ≥ 80% normal       | Low    | Normal          |
-| 50–80%             | Medium | Partial loss    |
-| < 50% OR <1.5/hr   | High   | Peak collapse   |
+| Orders/hr        | Risk   | Impact        |
+| ---------------- | ------ | ------------- |
+| ≥ 80% normal     | Low    | Normal        |
+| 50–80%           | Medium | Partial loss  |
+| < 50% OR <1.5/hr | High   | Peak collapse |
 
 **Restaurant Failure Rate**
 
 | Closure % | Risk   |
-|-----------|--------|
+| --------- | ------ |
 | < 20%     | Low    |
 | 20–50%    | Medium |
 | > 50%     | High   |
@@ -704,7 +694,7 @@ All environmental risks are derived using:
 **Dark Store Availability**
 
 | Assignment Rate | Risk   |
-|-----------------|--------|
+| --------------- | ------ |
 | ≥ 80%           | Low    |
 | 50–80%          | Medium |
 | < 50%           | High   |
@@ -712,7 +702,7 @@ All environmental risks are derived using:
 **Traffic Congestion**
 
 | Map Color | Risk   |
-|-----------|--------|
+| --------- | ------ |
 | Green     | Low    |
 | Yellow    | Medium |
 | Red       | High   |
@@ -723,16 +713,16 @@ All environmental risks are derived using:
 
 **Hub Operational Status**
 
-| Status      | Risk   | Impact         |
-|-------------|--------|---------------|
-| Operational | Low    | Normal        |
-| Partial     | Medium | Reduced load  |
-| Closed      | High   | Slot lost     |
+| Status      | Risk   | Impact       |
+| ----------- | ------ | ------------ |
+| Operational | Low    | Normal       |
+| Partial     | Medium | Reduced load |
+| Closed      | High   | Slot lost    |
 
 **Route Blockage (Traffic Index)**
 
 | Blockage % | Risk   |
-|------------|--------|
+| ---------- | ------ |
 | < 20%      | Low    |
 | 20–60%     | Medium |
 | > 60%      | High   |
@@ -748,10 +738,10 @@ All environmental risks are derived using:
 ### 3.4 📊 Risk Score Mapping
 
 | Risk Label | Score |
-|------------|------|
-| Low        | 1    |
-| Medium     | 2    |
-| High       | 3    |
+| ---------- | ----- |
+| Low        | 1     |
+| Medium     | 2     |
+| High       | 3     |
 
 ---
 
@@ -759,13 +749,11 @@ All environmental risks are derived using:
 
 #### 3.5.1 Environmental Risk Formula
 
-
 Environmental Risk =
 0.3× Heat +
 0.30 × Rain +
 0.20 × Flood +
 0.1× AQI
-
 
 ---
 
@@ -775,16 +763,13 @@ Environmental Risk =
 
 0.60 × Orders + 0.25 × Restaurant + 0.15 × Traffic
 
-
 **🛒 Quick Commerce**
 
 0.60 × DarkStore + 0.40 × Traffic
 
-
 **📦 E-commerce**
 
 0.65 × Hub + 0.35 × Route Blockage
-
 
 ---
 
@@ -806,10 +791,6 @@ Even without full calculation, some conditions automatically trigger **HIGH risk
 
 ### 4.1 🎯 Overview
 
-<div align="center">
-  <img src="https://github.com/user-attachments/assets/0bb54851-6678-46a7-9bcd-92d179d6ee5d" width="30%" />
-</div>
-
 The **Eligibility Criteria** define the conditions under which a delivery partner qualifies for:
 
 - ✅ Coverage activation  
@@ -826,16 +807,19 @@ The **Eligibility Criteria** define the conditions under which a delivery partne
 The delivery partner must be officially registered with a supported platform:
 
 #### 🍔 Food Delivery
+
 - Zomato  
 - Swiggy  
 
 #### 🛒 Quick Commerce
+
 - Zepto  
 - Blinkit  
 - Swiggy Instamart  
 - Dunzo  
 
 #### 📦 E-commerce
+
 - Amazon (Flex / DSP)  
 - Flipkart (Ekart Logistics)  
 
@@ -908,6 +892,7 @@ The delivery partner must be officially registered with a supported platform:
 - Dynamic peak-hour assignments  
 
 ✔ Allowed:
+
 - Primary zone  
 - Temporary reassignment (< 5 km)  
 
@@ -919,6 +904,7 @@ The delivery partner must be officially registered with a supported platform:
 - Hyperlocal (2–5 km radius)  
 
 ✔ Allowed:
+
 - Platform-assigned zones  
 - Demand-based reassignment  
 
@@ -930,6 +916,7 @@ The delivery partner must be officially registered with a supported platform:
 - Assigned delivery manifest  
 
 ✔ Allowed:
+
 - Assigned route zones  
 - Platform-approved route changes  
 
@@ -1053,7 +1040,6 @@ Must meet:
 
 ### 4.10 📊 Eligibility Decision Flow
 
-
 START
 ↓
 Is rider registered on platform?
@@ -1149,12 +1135,12 @@ The policy compensates **loss of earnings**, calculated based on delivery activi
 
 #### 💰 Covered Components
 
-| Component                 | Description                    |
-|--------------------------|--------------------------------|
-| Loss of working hours    | Rider unable to work           |
-| Loss of orders           | Reduced assignments            |
-| Loss of delivery slots   | (E-commerce)                   |
-| Partial delivery failure | Undelivered packages           |
+| Component                | Description          |
+| ------------------------ | -------------------- |
+| Loss of working hours    | Rider unable to work |
+| Loss of orders           | Reduced assignments  |
+| Loss of delivery slots   | (E-commerce)         |
+| Partial delivery failure | Undelivered packages |
 
 ---
 
@@ -1170,10 +1156,8 @@ The policy compensates **loss of earnings**, calculated based on delivery activi
 
 ❗ **Example:**
 
-
 4 hours dinner rain
 → 4 × ₹45/hour = ₹180 payout
-
 
 ---
 
@@ -1187,10 +1171,8 @@ The policy compensates **loss of earnings**, calculated based on delivery activi
 
 ❗ **Example:**
 
-
 3 hours disruption
 → 3 × ₹120/hour = ₹360 payout
-
 
 ---
 
@@ -1204,10 +1186,8 @@ The policy compensates **loss of earnings**, calculated based on delivery activi
 
 ❗ **Example:**
 
-
 12 undelivered packages × ₹28
 = ₹336 payout
-
 
 ---
 
@@ -1219,16 +1199,16 @@ This is strictly enforced to avoid ambiguity and fraud.
 
 #### 🚫 Exclusions Table
 
-| Exclusion                     | Reason                     |
-|------------------------------|----------------------------|
-| Vehicle damage               | Not income-related         |
-| Personal injury              | Health insurance scope     |
-| Accidents                    | Separate insurance domain  |
-| Voluntary inactivity         | No disruption              |
-| Late deliveries (completed)  | Income still earned        |
-| Restaurant internal delays   | Not external               |
-| Off-peak slowdown            | Only critical windows covered |
-| Personal deliveries          | Outside platform           |
+| Exclusion                   | Reason                        |
+| --------------------------- | ----------------------------- |
+| Vehicle damage              | Not income-related            |
+| Personal injury             | Health insurance scope        |
+| Accidents                   | Separate insurance domain     |
+| Voluntary inactivity        | No disruption                 |
+| Late deliveries (completed) | Income still earned           |
+| Restaurant internal delays  | Not external                  |
+| Off-peak slowdown           | Only critical windows covered |
+| Personal deliveries         | Outside platform              |
 
 ---
 
@@ -1285,6 +1265,7 @@ Is rider eligible (Section 4)?
 
 Else → Not Covered
 ```
+
 ---
 
 ### 5.7 🧠 Golden Rule of Coverage
@@ -1317,10 +1298,10 @@ It determines:
 All risk factors are standardized into numeric values:
 
 | Risk Label | Score |
-|------------|------|
-| Low        | 1    |
-| Medium     | 2    |
-| High       | 3    |
+| ---------- | ----- |
+| Low        | 1     |
+| Medium     | 2     |
+| High       | 3     |
 
 ---
 
@@ -1328,34 +1309,32 @@ All risk factors are standardized into numeric values:
 
 #### 📐 Formula
 
-
 Environmental Risk =
 0.35 × Heat +
 0.30 × Rain +
 0.20 × Flood +
 0.15 × AQI
 
-
 ---
 
 #### 📊 Weight Justification
 
-| Factor | Weight | Reason                                      |
-|--------|--------|---------------------------------------------|
-| 🌡 Heat | 35%   | Continuous exposure risk (esp. e-commerce)  |
-| 🌧 Rain | 30%   | Immediate disruption of deliveries          |
-| 🌊 Flood| 20%   | Route blockage                             |
-| 🌫 AQI  | 15%   | Gradual slowdown / shutdown                |
+| Factor   | Weight | Reason                                     |
+| -------- | ------ | ------------------------------------------ |
+| 🌡 Heat  | 35%    | Continuous exposure risk (esp. e-commerce) |
+| 🌧 Rain  | 30%    | Immediate disruption of deliveries         |
+| 🌊 Flood | 20%    | Route blockage                             |
+| 🌫 AQI   | 15%    | Gradual slowdown / shutdown                |
 
 ---
 
 #### 📈 Risk Classification
 
-| Score Range | Label              |
-|-------------|--------------------|
-| 1.0 – 1.5   | Low                |
-| 1.5 – 2.3   | Medium             |
-| > 2.3       | High (Trigger Level)|
+| Score Range | Label                |
+| ----------- | -------------------- |
+| 1.0 – 1.5   | Low                  |
+| 1.5 – 2.3   | Medium               |
+| > 2.3       | High (Trigger Level) |
 
 ---
 
@@ -1365,12 +1344,10 @@ Environmental Risk =
 
 #### 🍔 6.4.1 Food Delivery
 
-
 Operational Risk =
 0.60 × Order Collapse +
 0.25 × Restaurant Failure +
 0.15 × Traffic
-
 
 🔍 **Key Drivers**
 
@@ -1382,11 +1359,9 @@ Operational Risk =
 
 #### 🛒 6.4.2 Quick Commerce
 
-
 Operational Risk =
 0.60 × Dark Store +
 0.40 × Traffic
-
 
 🔍 **Key Drivers**
 
@@ -1397,11 +1372,9 @@ Operational Risk =
 
 #### 📦 6.4.3 E-commerce
 
-
 Operational Risk =
 0.65 × Hub Status +
 0.35 × Route Blockage
-
 
 🔍 **Key Drivers**
 
@@ -1433,12 +1406,10 @@ Some conditions are so severe that they **skip calculations**:
 
 #### 📐 Final Condition
 
-
 IF (Environmental Risk > 2.3)
 OR (Operational Risk > 2.3)
 AND Rider Eligible (Section 4)
 → TRIGGER PAYOUT
-
 
 ⚠️ **Important Notes**
 
@@ -1458,10 +1429,8 @@ AND Rider Eligible (Section 4)
 
 #### Environmental Score:
 
-
 = (3×0.30) + (2×0.20) + (2×0.35) + (2×0.15)
 = 2.4 → HIGH
-
 
 - Orders/hr = 1 → HIGH  
 
@@ -1481,10 +1450,8 @@ AND Rider Eligible (Section 4)
 
 #### Operational Score:
 
-
 = (3×0.65) + (2×0.35)
 = 2.65 → HIGH
-
 
 ✅ **Result**
 
@@ -1567,6 +1534,7 @@ Final Weekly Premium
 [Policy Update]
 (Monday 00:01)
 ```
+
 ---
 
 ### 7.3 💰 Base Premium Structure
@@ -1575,11 +1543,11 @@ Base premiums vary across categories due to different income risk profiles.
 
 #### 📊 Category-Wise Base Premium
 
-| Category            | Low Risk | Medium Risk | High Risk |
-|--------------------|----------|-------------|-----------|
-| 🍔 Food            | ₹35      | ₹50         | ₹65       |
-| 🛒 Quick Commerce  | ₹25      | ₹35         | ₹45       |
-| 📦 E-commerce      | ₹30      | ₹42         | ₹55       |
+| Category          | Low Risk | Medium Risk | High Risk |
+| ----------------- | -------- | ----------- | --------- |
+| 🍔 Food           | ₹35      | ₹50         | ₹65       |
+| 🛒 Quick Commerce | ₹25      | ₹35         | ₹45       |
+| 📦 E-commerce     | ₹30      | ₹42         | ₹55       |
 
 🧠 **Insight**
 
@@ -1595,18 +1563,16 @@ Base premiums vary across categories due to different income risk profiles.
 
 #### 🍔 7.4.1 Food Delivery (Zone-Based)
 
-
 Effective Risk =
 Σ (Zone Work % × Zone Risk Value)
 
-
 📊 **Example**
 
-| Zone         | Work % | Risk |
-|--------------|--------|------|
-| Koramangala  | 50%    | 3    |
-| Indiranagar  | 30%    | 2    |
-| Whitefield   | 20%    | 1    |
+| Zone        | Work % | Risk |
+| ----------- | ------ | ---- |
+| Koramangala | 50%    | 3    |
+| Indiranagar | 30%    | 2    |
+| Whitefield  | 20%    | 1    |
 
 👉 **Score = 2.4 → High Risk**
 
@@ -1614,10 +1580,8 @@ Effective Risk =
 
 #### 🛒 7.4.2 Quick Commerce (Multi-Zone)
 
-
 Effective Risk =
 Σ (Zone % × Risk Value)
-
 
 ✔ Same logic as food  
 ✔ Based on dark store zones  
@@ -1626,15 +1590,13 @@ Effective Risk =
 
 #### 📦 7.4.3 E-commerce (Route-Based)
 
-
 Effective Route Risk =
 Σ (Route Zone % × Risk Value)
-
 
 📊 **Example**
 
 | Zone Type | %   | Risk |
-|-----------|-----|------|
+| --------- | --- | ---- |
 | Low       | 35% | 1    |
 | Medium    | 40% | 2    |
 | High      | 25% | 3    |
@@ -1665,10 +1627,8 @@ Effective Route Risk =
 
 #### 📤 Output
 
-
 "Thursday 6 PM → 82% disruption probability"
 → Premium increased by +20%
-
 
 🎯 **Purpose**
 
@@ -1681,44 +1641,42 @@ Effective Route Risk =
 
 #### 📐 Formula
 
-
 Reputation =
 0.4 × Performance +
 0.3 × Claims +
 0.2 × Activity +
 0.1 × Stability
 
-
 ---
 
 #### 📊 Factors
 
-| Factor            | Weight | Description                  |
-|------------------|--------|------------------------------|
-| Performance      | 40%    | Orders/slots completed       |
-| Claims Behavior  | 30%    | Valid vs suspicious claims   |
-| Activity         | 20%    | Weekly engagement            |
-| Stability        | 10%    | Zone/route consistency       |
+| Factor          | Weight | Description                |
+| --------------- | ------ | -------------------------- |
+| Performance     | 40%    | Orders/slots completed     |
+| Claims Behavior | 30%    | Valid vs suspicious claims |
+| Activity        | 20%    | Weekly engagement          |
+| Stability       | 10%    | Zone/route consistency     |
 
 ---
 
 #### 📈 Score Classification
 
-| Score   | Level  |
-|---------|--------|
-| 80–100  | High   |
-| 50–80   | Medium |
-| <50     | Low    |
+| Score  | Level  |
+| ------ | ------ |
+| 80–100 | High   |
+| 50–80  | Medium |
+| <50    | Low    |
 
 ---
 
 ### 7.7 ⚖️ Reputation-Based Adjustment
 
-| Level  | Adjustment         |
-|--------|--------------------|
-| High   | −10% (discount)    |
-| Medium | No change          |
-| Low    | +15% (penalty)     |
+| Level  | Adjustment      |
+| ------ | --------------- |
+| High   | −10% (discount) |
+| Medium | No change       |
+| Low    | +15% (penalty)  |
 
 🧠 **Insight**
 
@@ -1736,19 +1694,17 @@ Higher-risk riders:
 
 📊 **Example**
 
-| Zone Risk  | Premium | Payout/hour |
-|------------|--------|-------------|
-| High Risk  | ₹101   | ₹45         |
-| Low Risk   | ₹74    | ₹35         |
+| Zone Risk | Premium | Payout/hour |
+| --------- | ------- | ----------- |
+| High Risk | ₹101    | ₹45         |
+| Low Risk  | ₹74     | ₹35         |
 
 ---
 
 ### 7.9 🧮 Final Premium Formula
 
-
 Final Premium =
 Base × Risk Exposure × AI Factor × Reputation Adjustment
-
 
 ---
 
@@ -1759,10 +1715,8 @@ Base × Risk Exposure × AI Factor × Reputation Adjustment
 - AI Factor = 1.25  
 - Reputation = 0.90  
 
-
 Final = ₹50 × 1.8 × 1.25 × 0.90
 = ₹101/week
-
 
 ---
 
@@ -1785,8 +1739,8 @@ Final = ₹50 × 1.8 × 1.25 × 0.90
 
 #### 📉 Example
 
-| Week   | Condition      | Premium |
-|--------|---------------|---------|
+| Week   | Condition     | Premium |
+| ------ | ------------- | ------- |
 | Week 1 | Monsoon       | ₹101    |
 | Week 2 | Clear weather | ₹81     |
 | Week 3 | Heatwave      | ₹95     |
@@ -1822,11 +1776,11 @@ Income loss is calculated **ONLY when all conditions are met**:
 
 #### ⏱ Minimum Duration Rules
 
-| Category            | Minimum Duration        |
-|--------------------|------------------------|
-| 🍔 Food            | ≥ 30 minutes           |
-| 🛒 Quick Commerce  | ≥ 30 minutes           |
-| 📦 E-commerce      | ≥ 45–60 minutes (slot-based) |
+| Category          | Minimum Duration             |
+| ----------------- | ---------------------------- |
+| 🍔 Food           | ≥ 30 minutes                 |
+| 🛒 Quick Commerce | ≥ 30 minutes                 |
+| 📦 E-commerce     | ≥ 45–60 minutes (slot-based) |
 
 ---
 
@@ -1841,12 +1795,12 @@ Each rider has a **personalized earning baseline**, calculated from historical p
 #### 🍔🛒 8.3.1 Food & Quick Commerce
 
 ##### 📐 Formulas
+
 Average Peak Earnings =
 Total Peak Earnings ÷ Peak Hours Worked
 
 Average Non-Peak Earnings =
 Total Non-Peak Earnings ÷ Non-Peak Hours Worked
-
 
 ---
 
@@ -1860,9 +1814,9 @@ Total Non-Peak Earnings ÷ Non-Peak Hours Worked
 #### 📦 8.3.2 E-commerce
 
 ##### 📐 Formula
+
 Average Earnings per Package =
 Total Earnings ÷ Total Packages Delivered
-
 
 ---
 
@@ -1891,17 +1845,17 @@ Time during which delivery operations are **significantly affected**.
 ---
 
 #### 🍔 Food Delivery
+
 Income Loss =
 PeakHoursLost × PeakRate +
 NonPeakHoursLost × NonPeakRate
 
-
 ---
 
 #### 🛒 Quick Commerce
+
 Income Loss =
 TotalHoursLost × AvgHourlyIncome
-
 
 ---
 
@@ -1910,10 +1864,8 @@ TotalHoursLost × AvgHourlyIncome
 **Full Slot Loss**
 Assigned Packages × Avg Earning per Package
 
-
 **Partial Loss**
 Undelivered Packages × Avg Earning per Package
-
 
 ---
 
@@ -1925,8 +1877,7 @@ Undelivered Packages × Avg Earning per Package
 
 - Peak Rate = ₹45/hour  
 - Disruption = 4 hours  
-Loss = 4 × 45 = ₹180
-
+  Loss = 4 × 45 = ₹180
 
 ---
 
@@ -1934,8 +1885,7 @@ Loss = 4 × 45 = ₹180
 
 - Avg Income = ₹120/hour  
 - Disruption = 3 hours  
-Loss = 3 × 120 = ₹360
-
+  Loss = 3 × 120 = ₹360
 
 ---
 
@@ -1945,8 +1895,7 @@ Loss = 3 × 120 = ₹360
 - Delivered = 8  
 - Undelivered = 12  
 - Avg earning = ₹28  
-Loss = 12 × 28 = ₹336
-
+  Loss = 12 × 28 = ₹336
 
 ---
 
@@ -1959,13 +1908,14 @@ Loss = 12 × 28 = ₹336
 **Example**
 
 - 2 hours disrupted out of 5-hour peak  
-→ Only **2 hours compensated**
+  → Only **2 hours compensated**
 
 ---
 
 ### 8.8 🚀 Instant Payout System
 
 #### ⚡ Workflow
+
 ```
 Trigger Detected
 ↓
@@ -2014,17 +1964,21 @@ A payout is triggered **ONLY when ALL conditions are satisfied**:
 #### ✅ Mandatory Conditions
 
 - **Verified Disruption**  
+  
   - Must meet parametric trigger thresholds (**Section 6**)  
 
 - **Active Rider**  
+  
   - Rider online during disruption  
   - GPS active  
 
 - **Valid Operational Context**  
+  
   - Assigned zone / route  
   - Active order / slot  
 
 - **Actual Income Loss**  
+  
   - Orders/packages reduced or stopped  
 
 ❌ **If ANY condition fails → Claim Rejected**
@@ -2049,7 +2003,7 @@ Ensure disruption matches expected real-world impact
 ❌ **Fraud Example**
 
 - Claiming rain disruption at 3 AM (non-peak food)  
-→ ❌ Rejected  
+  → ❌ Rejected  
 
 ---
 
@@ -2088,7 +2042,7 @@ Verify actual work disruption via platform logs
 
 - Rider claims no orders  
 - Platform shows normal assignment  
-→ ❌ Rejected  
+  → ❌ Rejected  
 
 ---
 
@@ -2106,7 +2060,7 @@ Ensure rider was actively working during disruption
 ❌ **Fraud Example**
 
 - Rider offline before disruption  
-→ ❌ No payout  
+  → ❌ No payout  
 
 ---
 
@@ -2189,8 +2143,8 @@ IF ALL PASS
 
 ELSE
 → REJECTED
-
 ```
+
 ---
 
 ### 9.6 ⚖️ Claim Confidence Score (Advanced Layer)
@@ -2199,23 +2153,21 @@ ELSE
 
 Each claim is assigned a **confidence score (0–100):**
 
-
 Confidence Score =
 0.30 × GPS Accuracy +
 0.30 × Platform Data Match +
 0.20 × Activity +
 0.20 × Behavior
 
-
 ---
 
 #### 📊 Decision Logic
 
-| Score   | Action        |
-|---------|--------------|
-| ≥ 80    | Auto-approve |
-| 50–80   | Review       |
-| < 50    | Reject       |
+| Score | Action       |
+| ----- | ------------ |
+| ≥ 80  | Auto-approve |
+| 50–80 | Review       |
+| < 50  | Reject       |
 
 ---
 
@@ -2257,10 +2209,10 @@ This section defines:
 
 #### 🕒 Timeline
 
-| Event        | Time           |
-|--------------|----------------|
-| Policy Start | Monday 00:01   |
-| Policy End   | Sunday 23:59   |
+| Event        | Time         |
+| ------------ | ------------ |
+| Policy Start | Monday 00:01 |
+| Policy End   | Sunday 23:59 |
 
 ---
 
@@ -2301,8 +2253,8 @@ Notify Rider
 Auto-Debit
 ↓
 Policy Renewed
-
 ```
+
 ---
 
 #### ❌ Renewal Failure Cases
@@ -2350,11 +2302,11 @@ Policy Renewed
 
 Each rider has a **maximum payout limit per week**:
 
-| Category            | Weekly Cap     |
-|--------------------|---------------|
-| 🍔 Food            | ₹800–₹1200    |
-| 🛒 Quick Commerce  | ₹700–₹1000    |
-| 📦 E-commerce      | ₹1000–₹1500   |
+| Category          | Weekly Cap  |
+| ----------------- | ----------- |
+| 🍔 Food           | ₹800–₹1200  |
+| 🛒 Quick Commerce | ₹700–₹1000  |
+| 📦 E-commerce     | ₹1000–₹1500 |
 
 🧠 **Basis**
 
@@ -2367,10 +2319,10 @@ Each rider has a **maximum payout limit per week**:
 
 Limits payout for a **single disruption event**:
 
-| Category | Cap          |
-|----------|-------------|
-| Food     | ₹200–₹300   |
-| Quick    | ₹300–₹400   |
+| Category   | Cap       |
+| ---------- | --------- |
+| Food       | ₹200–₹300 |
+| Quick      | ₹300–₹400 |
 | E-commerce | ₹400–₹600 |
 
 🧠 **Reason**
@@ -2409,11 +2361,11 @@ Limits payout for a **single disruption event**:
 
 #### 📉 Example
 
-| Scenario        | Premium Impact |
-|----------------|----------------|
-| High claims    | +15%           |
-| Clean history  | −10%           |
-| Low risk week  | Reduced        |
+| Scenario      | Premium Impact |
+| ------------- | -------------- |
+| High claims   | +15%           |
+| Clean history | −10%           |
+| Low risk week | Reduced        |
 
 ---
 
@@ -2421,17 +2373,16 @@ Limits payout for a **single disruption event**:
 
 #### 📊 States
 
-| Status    | Meaning                    |
-|-----------|----------------------------|
-| ACTIVE    | Eligible for coverage      |
-| INACTIVE  | No coverage                |
-| PAUSED    | Temporarily disabled       |
-| EXPIRED   | Renewal failed             |
+| Status   | Meaning               |
+| -------- | --------------------- |
+| ACTIVE   | Eligible for coverage |
+| INACTIVE | No coverage           |
+| PAUSED   | Temporarily disabled  |
+| EXPIRED  | Renewal failed        |
 
 ---
 
 ### 10.9 🧠 System-Level Lifecycle
-
 
 New → Active → (Paused / Expired) → Renewed → Active
 ---
@@ -2441,18 +2392,21 @@ New → Active → (Paused / Expired) → Renewed → Active
 ### 11.1 Platform Decision: Web (Progressive Web App)
 
 **Rationale:**
+
 - Delivery riders use Android phones with limited storage; native app installation friction is high
 - PWA installs like an app but serves via browser — no Play Store dependency
 - Web platform allows instant updates without version fragmentation
 - Admin dashboard (insurer view) is naturally web-first
 
 **Two Interfaces:**
+
 1. **Rider PWA** — Mobile-first, Kannada/Hindi/English, simple 3-screen flow
 2. **Admin Web Dashboard** — Full analytics, fraud review queue, risk monitoring
 
 ### 11.2 Full Tech Stack
 
 **Frontend:**
+
 ```
 Rider PWA:         React + Vite + TailwindCSS + PWA manifest
 Admin Dashboard:   React + Vite + TailwindCSS + Recharts / Nivo
@@ -2461,6 +2415,7 @@ API Layer:         Axios + React Query (caching + background refetch)
 ```
 
 **Backend:**
+
 ```
 Runtime:           Node.js (Express) — Phase 1-2
                    FastAPI (Python) — ML microservice
@@ -2469,6 +2424,7 @@ Auth:              JWT + Refresh Token rotation
 ```
 
 **Database:**
+
 ```
 Primary DB:        PostgreSQL (riders, policies, claims, payouts)
 Cache:             Redis (real-time risk scores, session tokens, API response cache)
@@ -2476,6 +2432,7 @@ Time-Series:       TimescaleDB (extension on Postgres) — weather event logs, o
 ```
 
 **AI/ML:**
+
 ```
 Premium Model:     XGBoost (scikit-learn) — retrained weekly via cron
 Fraud Detection:   Isolation Forest (scikit-learn) — runs on every claim event
@@ -2484,6 +2441,7 @@ Experiment Track:  MLflow (Phase 2)
 ```
 
 **External APIs:**
+
 ```
 Weather:           OpenWeatherMap API (current + 7-day forecast)
                    IMD Open Data Portal (backup / cross-validation)
@@ -2494,6 +2452,7 @@ Platform Data:     Simulated mock API (Phase 1-2); real integration plan in Phas
 ```
 
 **Infrastructure:**
+
 ```
 Hosting:           AWS (EC2 + RDS + ElastiCache) or Render.com (Phase 1 demo)
 CI/CD:             GitHub Actions
@@ -2541,22 +2500,26 @@ Monitoring:        Sentry (errors) + Datadog (metrics) — Phase 2
 ## 12. Development Plan & Milestones
 
 ### Phase 1 (March 4–20): Ideation & Foundation ✅ IN PROGRESS
+
 - [x] All 3 persona policy documents complete
 - [x] Technical architecture defined
 - [x] DB schema designed
 - [x] API contracts defined
 - [x] Adversarial defense strategy documented
-- [ ] GitHub repo setup with this README
-- [ ] 2-minute strategy video recorded
+- [x] GitHub repo setup with this README
+- [x] 2-minute strategy video recorded
 
 ### Phase 2 (March 21 – April 4): Automation & Protection
+
 **Week 3:**
+
 - Rider onboarding flow (PWA)
 - Policy creation + Razorpay test mode payment
 - Weather API integration (OpenWeatherMap)
 - Basic disruption monitor (cron job, every 15 min)
 
 **Week 4:**
+
 - Dynamic premium calculation (XGBoost model — trained on synthetic data)
 - Auto-claim trigger on disruption threshold breach
 - Fraud scoring (Isolation Forest — Phase 1 version)
@@ -2564,7 +2527,9 @@ Monitoring:        Sentry (errors) + Datadog (metrics) — Phase 2
 - Claims management UI
 
 ### Phase 3 (April 5–17): Scale & Optimise
+
 **Week 5:**
+
 - Advanced GPS spoofing detection (accelerometer + cell tower mismatch)
 - ZDCI (Zone Disruption Confirmation Index) implementation
 - Claim Burst Index for coordinated ring detection
@@ -2572,6 +2537,7 @@ Monitoring:        Sentry (errors) + Datadog (metrics) — Phase 2
 - Simulated Razorpay payout with real test mode transactions
 
 **Week 6 (Final):**
+
 - Full admin analytics dashboard (loss ratios, zone risk heat map, weekly forecast)
 - Worker dashboard (earnings protected, coverage status)
 - 5-minute demo video with simulated rainstorm trigger
@@ -2579,6 +2545,7 @@ Monitoring:        Sentry (errors) + Datadog (metrics) — Phase 2
 - End-to-end E2E test suite
 
 ---
+
 ## 13. 📲 Platform Justification (Web vs Mobile)
 
 ### ✅ Final Decision: **Mobile App First Approach**
@@ -2613,16 +2580,16 @@ A mobile app aligns directly with how riders:
 
 ### 13.3 📊 Web vs Mobile Comparison
 
-| Factor                     | 🌐 Web Platform              | 📲 Mobile App (Chosen)        |
-|--------------------------|-----------------------------|-------------------------------|
-| Accessibility            | Requires browser            | Always available              |
-| Real-time interaction    | Limited                     | Instant & seamless            |
-| GPS integration          | Weak                        | Strong (native support)       |
-| Push notifications       | Limited                     | Real-time alerts              |
-| Offline capability       | Minimal                     | Supported                     |
-| Ease of use (on road)    | Poor                        | Optimized for riders          |
-| Background processing    | Not reliable                | Fully supported               |
-| Sensor integration       | Limited                     | Full (GPS, motion, etc.)      |
+| Factor                | 🌐 Web Platform  | 📲 Mobile App (Chosen)   |
+| --------------------- | ---------------- | ------------------------ |
+| Accessibility         | Requires browser | Always available         |
+| Real-time interaction | Limited          | Instant & seamless       |
+| GPS integration       | Weak             | Strong (native support)  |
+| Push notifications    | Limited          | Real-time alerts         |
+| Offline capability    | Minimal          | Supported                |
+| Ease of use (on road) | Poor             | Optimized for riders     |
+| Background processing | Not reliable     | Fully supported          |
+| Sensor integration    | Limited          | Full (GPS, motion, etc.) |
 
 ---
 
@@ -2726,9 +2693,10 @@ Mobile-first architecture enables:
 
 👉 A web-only solution would **break the core value proposition of GigShield**
 
-
 ---
+
 ## 14. 🛡️ Adversarial Defense & Anti-Spoofing Strategy
+
 ---
 
 ### 14.1 🚨 Crisis Overview: Market Exploit Scenario
@@ -2748,6 +2716,7 @@ A critical vulnerability was identified in parametric insurance systems:
 #### 💣 Attack Outcome
 
 System falsely detected:
+
 - Severe environmental conditions  
 - Active riders in affected zones  
 
@@ -2768,18 +2737,19 @@ System falsely detected:
 #### ❌ Why Traditional Systems Fail
 
 GPS spoofing apps can:
+
 - Fake coordinates  
 - Simulate movement  
 - Bypass basic validation checks  
 
 #### 🔥 New Threat Model
 
-| Threat              | Description                         |
-|--------------------|-------------------------------------|
-| Location Spoofing  | Fake GPS coordinates                |
-| Coordinated Fraud  | Multiple users attacking together   |
-| Idle Exploit       | Claiming while sitting at home      |
-| Data Manipulation  | Faking environmental presence       |
+| Threat            | Description                       |
+| ----------------- | --------------------------------- |
+| Location Spoofing | Fake GPS coordinates              |
+| Coordinated Fraud | Multiple users attacking together |
+| Idle Exploit      | Claiming while sitting at home    |
+| Data Manipulation | Faking environmental presence     |
 
 ---
 
@@ -2836,13 +2806,15 @@ Differentiate between:
 - Graph-based clustering → detect coordinated fraud
 
 ### 🚨 Detection Signals
-- Signal	Genuine Rider	Spoofed Rider
-- Movement	Continuous	Static / artificial
-- Speed Variation	Natural	Constant / unrealistic
-- Order Activity	Present	Absent
-- Behavior Pattern	Random	Repetitive
+
+- Signal    Genuine Rider    Spoofed Rider
+- Movement    Continuous    Static / artificial
+- Speed Variation    Natural    Constant / unrealistic
+- Order Activity    Present    Absent
+- Behavior Pattern    Random    Repetitive
 
 ### 14.6 📊  Advanced Data Signals (Beyond GPS)
+
 📡 Multi-Sensor Data Fusion
 
 GigShield uses multiple data sources simultaneously:
@@ -2882,6 +2854,7 @@ GigShield uses multiple data sources simultaneously:
 ❗ Fake GPS ≠ Fake movement, network, and behavior simultaneously
 
 ### 14.7 🤝 Coordinated Fraud Detection (Graph Intelligence)
+
 ### 🧠 Problem
 
 Fraud is not individual — it is group-based
@@ -2899,6 +2872,7 @@ Detect:
 - Identical behavior
 
 ### 🚨 Example
+
 500 riders
 → Same zone
 → Same time
@@ -2907,16 +2881,18 @@ Detect:
 → FLAGGED AS FRAUD CLUSTER
 
 ### 14.8 ⚖️  UX Balance Strategy (Fairness Layer)
+
 ### 🎯 Challenge
 
 Avoid penalizing genuine riders during real disruptions
 
 ### ✅ Solution
-- Scenario	Action
-- High confidence fraud	Reject
-- Medium confidence	Flag + delay payout
-- Low confidence	Approve
-  
+
+- Scenario    Action
+- High confidence fraud    Reject
+- Medium confidence    Flag + delay payout
+- Low confidence    Approve
+
 ### 🧠 Smart Handling
 
 - Soft flags instead of immediate rejection
